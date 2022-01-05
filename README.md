@@ -1,4 +1,4 @@
-# wordle
+# WordleCLI
 
 A command line version of the popular game Wordle.
 
