@@ -67,7 +67,7 @@ struct Wordle {
 
             // Users have a fixed amount of tries
             if board.attempts.count == Constants.attempts {
-                print("Sorry, you run out of attempts. The solution was '\(board.solution.capitalized)'. Please try again!".red)
+                print("Sorry, you ran out of attempts. The solution was '\(board.solution.capitalized)'. Please try again!".red)
                 exit(-1)
             }
 
